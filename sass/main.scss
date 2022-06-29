@@ -1,8 +1,18 @@
-@import "./utils/acception--hidden";
+@import "./utils/hidden";
 
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
 
-@import "./components/modal-btn";
+@import "./components/modal";
 @import "./components/priority__description";
+@import "./components/advantages";
+@import "./components/backdrop";
+@import "./components/slogan";
+@import "./components/button";
+@import "./components/clients";
+@import "./components/acception";
+@import "./components/checkbox";
+@import "./components/contact";
+@import "./components/modal-form";
+@import "./components/pushbutton";

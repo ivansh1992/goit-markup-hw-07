@@ -294,51 +294,53 @@
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="customers__title">Nasi klienci</h2>
-        <ul class="client">
-          <li>
-            <a class="customers__link" href="#">
-              <svg width="41" height="47">
-                <use href="./image/icons.svg#icon-group"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="customers__link" href="#">
-              <svg height="52" width="40">
-                <use href="./image/icons.svg#icon-group1"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="customers__link" href="#">
-              <svg height="41" width="43">
-                <use href="./image/icons.svg#icon-group2"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="customers__link" href="#">
-              <svg height="40" width="84">
-                <use href="./image/icons.svg#icon-group3"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="customers__link" href="#">
-              <svg height="45" width="62">
-                <use href="./image/icons.svg#icon-group4"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="customers__link" href="#">
-              <svg height="44" width="94">
-                <use href="./image/icons.svg#icon-group5"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="clients">
+          <h2 class="clients__title">Nasi klienci</h2>
+          <ul class="clients__item">
+            <li>
+              <a class="clients__link" href="#">
+                <svg width="41" height="47">
+                  <use href="./image/icons.svg#icon-group"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients__link" href="#">
+                <svg height="52" width="40">
+                  <use href="./image/icons.svg#icon-group1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients__link" href="#">
+                <svg height="41" width="43">
+                  <use href="./image/icons.svg#icon-group2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients__link" href="#">
+                <svg height="40" width="84">
+                  <use href="./image/icons.svg#icon-group3"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients__link" href="#">
+                <svg height="45" width="62">
+                  <use href="./image/icons.svg#icon-group4"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients__link" href="#">
+                <svg height="44" width="94">
+                  <use href="./image/icons.svg#icon-group5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
@@ -415,9 +417,9 @@
     </div>
   </footer>
   <div class="backdrop is-hidden" data-modal>
-    <div class="modal-btn">
+    <div class="modal">
       <button type="button" class="close-bth" data-modal-close>
-        <svg width="10" height="10">
+        <svg class="modal__icon" width="10" height="10">
           <use href="./image/icons.svg#icon-close"></use>
         </svg>
       </button>
@@ -449,15 +451,15 @@
           <textarea class="modal-form__comments" name="feedback" rows="5" placeholder="Wprowadż tekst"></textarea>
         </label>
         <div class="acception">
-          <input class="acception__input acception--hidden" type="checkbox" id="acception" value="zgoda" required />
-          <label class="acception__text acception--text" for="acception">
+          <input class="acception__input hidden" type="checkbox" id="acception" value="zgoda" required />
+          <label class="checkbox checkbox--text" for="acception">
             Oświadczam iż akceptuję
             <a class="acception__link" href="#Regulamin">Regulamin</a>
             i
             <a class="acception__link" href="#Politykę">Politykę Prywatności.</a>
           </label>
         </div>
-        <button class="acception__submit submit--button" type="submit">
+        <button class="acception__submit acception__submit--button" type="submit">
           Wyślij
         </button>
       </form>
