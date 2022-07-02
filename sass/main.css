@@ -14,6 +14,14 @@
   margin: 0;
 }
 
+.page {
+  font-family: "Roboto", "sans-serif";
+  color: #757575;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -819,4 +827,28 @@
 .social-team__link:hover, .social-team__link:active {
   background-color: #2196f3;
   fill: var(--color-slogan);
+}
+
+.footer-page {
+  height: 252px;
+  background: var(--color-background);
+  padding: 60px 0;
+}
+.footer-page__flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  height: 80px;
+  display: flex;
+}
+.page-header__container {
+  display: flex;
+  align-items: center;
+}
+.page-header__logo {
+  margin-right: 93px;
 }/*# sourceMappingURL=main.css.map */
