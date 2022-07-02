@@ -13,7 +13,7 @@
   transition-property: transform;
 
   &__head {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -23,7 +23,7 @@
     color: var(--color-title);
   }
 
-  &__close-bth {
+  &__close-btn {
     position: absolute;
     background-color: #fff;
     top: 8px;
@@ -38,8 +38,8 @@
   &__icon {
     fill: var(--color-logo-second-color);
     position: absolute;
-    top: 3%;
-    left: 97%;
+    top: 14px;
+    left: 14px;
     transform: translate(-50%, -50%);
   }
 }

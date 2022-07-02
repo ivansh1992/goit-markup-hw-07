@@ -9,6 +9,20 @@
   overflow: hidden;
 }
 
+:root {
+  --color-variable: #2196f3;
+  --color-title: #212121;
+  --color-text: #757575;
+  --color-background: #2f303a;
+  --color-slogan: #fff;
+  --color-adress: #fff;
+  --color-footer-contact: rgba(255, 255, 255, 0.6);
+  --color-background-button: #f5f4fa;
+  --color-fill-social-link: #afb1b8;
+  --color-logo-first-color: #2196f3;
+  --color-logo-second-color: #000;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -47,7 +61,7 @@
   transition-property: transform;
 }
 .modal__head {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -56,7 +70,7 @@
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
-.modal__close-bth {
+.modal__close-btn {
   position: absolute;
   background-color: #fff;
   top: 8px;
@@ -70,8 +84,8 @@
 .modal__icon {
   fill: var(--color-logo-second-color);
   position: absolute;
-  top: 3%;
-  left: 97%;
+  top: 14px;
+  left: 14px;
   transform: translate(-50%, -50%);
 }
 
