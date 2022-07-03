@@ -1,18 +1,7 @@
 .clients {
-  &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--color-title);
-    padding-bottom: 50px;
-  }
-
-  &__item {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-  }
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 
   &__link {
     width: 170px;

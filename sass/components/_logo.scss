@@ -8,13 +8,13 @@
   &__link {
     text-decoration: none;
   }
-  &--first-color {
+  &__first--color {
     color: var(--color-logo-first-color);
   }
-  &--second-color {
+  &__second--color {
     color: var(--color-logo-second-color);
   }
-  &--another-color {
+  &__another--color {
     color: #fff;
   }
 }
